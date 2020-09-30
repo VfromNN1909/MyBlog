@@ -12,7 +12,7 @@ import ru.vlasoff.blog.service.ServiceImpl;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/v1/posts")
+@RequestMapping("/api/v2/posts")
 public class BlogController {
 
     private final ServiceImpl postService;
