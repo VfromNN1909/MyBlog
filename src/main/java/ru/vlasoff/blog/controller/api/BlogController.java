@@ -13,6 +13,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/v2/posts")
+@CrossOrigin
 public class BlogController {
 
     private final ServiceImpl postService;
