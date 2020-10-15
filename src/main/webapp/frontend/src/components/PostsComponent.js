@@ -31,7 +31,7 @@ export class PostsComponent extends Component {
                 <ul style={styles.ul}>
                     {
                         this.state.posts.map(post =>
-                            <li>
+                            <li key={post.id}>
                                 <strong>{post.id}</strong>.
                                 {post.topic}
                                 <p>
